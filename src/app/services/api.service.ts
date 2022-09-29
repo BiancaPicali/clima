@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ApiService {
-
+  
   private url = 'https://reqres.in/api/users'
 
   constructor(private http: HttpClient) { }
